@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>TODO App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
     <link rel="stylesheet" type="text/css" href="./styles.css" />
-  </head>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    
+   </head>
   <body>
-    <div class="container center">
-      <h1 class="center title">My TODO App</h1>
-      <div class="flow-right controls">
-        <span>Item count: <span id="item-count">0</span></span>
-        <span>Unchecked count: <span id="unchecked-count">0</span></span>
-      </div>
-      <button class="button center" onClick="newTodo()">New TODO</button>
-      <ul id="todo-list" class="todo-list"></ul>
-    </div>
-    <script src="./script.js"></script>
+    <div id="grad1"></div>
+    <script type="text/babel" src="todoapp.js"></script>
   </body>
 </html>
